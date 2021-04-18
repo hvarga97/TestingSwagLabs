@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;
 using System.Collections.Generic;
@@ -42,7 +42,6 @@ namespace TestingSwagLabs
         [FindsBy(How = How.Id, Using = "shopping_cart_container")]
         public IWebElement btnCart { get; set; }
 
-
         public void DoTheShopping()
         {
             btnItemSauceLabsBackpack.Click();
@@ -68,6 +67,5 @@ namespace TestingSwagLabs
             btnCart.Click();
             return new EAPage_2Objects();
         }
-
     }
 }
