@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
@@ -10,9 +10,7 @@ namespace TestingSwagLabs
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        static void Main(string[] args){}
 
         [SetUp]
         public void Initialize()
