@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;
 using System.Collections.Generic;
@@ -23,7 +23,6 @@ namespace TestingSwagLabs
 
         [FindsBy(How = How.Name, Using = "login-button")]
         public IWebElement btnLogin { get; set; }
-
 
         public EAPage_1Objects Login(string userName, string passWord)
         {
